@@ -1,0 +1,148 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="still.css" rel="stylesheet" type="text/css"/>
+<title>performans</title>
+</head>
+<body>
+<div id="header">
+<style type="text/css">
+.container1{width:660px;margin:0;padding:0;}
+.folio_block{position:absolute;left:50%;top:50%;margin:-140px 0 0 -395px;}
+.main_view{float:left;position:relative;}
+.window{height:375px;width:960px;-moz-box-shadow:0 0 5px #303030;-webkit-box-shadow:0 0 5px #303030;box-shadow:0 0 5px #303030;border:1px solid #000;margin:0;overflow:hidden;position:relative;}
+.image_reel{position:absolute;top:0;left:0;}
+.image_reel img{float:left;}
+.paging_btrix{position:absolute;bottom:10px;right:-7px;width:178px;height:47px;z-index:100;text-align:center;line-height:40px;background:url(http://4.bp.blogspot.com/_ELUIRQESuk4/TFw-m2eaQlI/AAAAAAAAADg/KQbHMNM6wOQ/s320/paging.png) no-repeat;display:none;}
+.paging_btrix a{text-decoration:none;color:#fff;padding:5px;}
+.paging_btrix a.active{font-weight:700;background:#920000;border:1px solid #610000;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;}
+.paging_btrix a:hover{font-weight:700;}
+</style>
+<div class="container1">
+<div class="main_view">
+<div class="window">
+<div class="image_reel">
+<img src="Png dosyaları/banner1.jpg"/> 
+<img src="Png dosyaları/banner2.jpg"/>
+<img src="Png dosyaları/banner3.jpg"/>
+<img src="Png dosyaları/banner4.jpg" width="960"/>
+<img src="Png dosyaları/yozgat5.jpg" width=""/>
+</div>
+</div>
+<div class="paging_btrix">
+<a href="#" rel="1">1</a>
+<a href="#" rel="2">2</a>
+<a href="#" rel="3">3</a>
+<a href="#" rel="4">4</a>
+<a href="#" rel="5">5</a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){$(".paging_btrix").show();$(".paging_btrix a:first").addClass("active");var imageWidth=$(".window").width();var imageSum=$(".image_reel img").size();var imageReelWidth=imageWidth*imageSum;$(".image_reel").css({'width':imageReelWidth});rotate=function(){var triggerID=$active.attr("rel")-1;var image_reelPosition=triggerID*imageWidth;$(".paging_btrix a").removeClass('active');$active.addClass('active');$(".image_reel").animate({left:-image_reelPosition},500)};rotateSwitch=function(){play=setInterval(function(){$active=$('.paging_btrix a.active').next();if($active.length===0){$active=$('.paging_btrix a:first')}rotate()},
+5000)};rotateSwitch();$(".image_reel a").hover(function(){clearInterval(play)},function(){rotateSwitch()});$(".paging_btrix a").click(function(){$active=$(this);clearInterval(play);rotate();rotateSwitch();return false})});
+</script>
+</div>
+   <div id="menü">
+    	<ul>
+        	<li><a href="index.html">Anasayfa</a></li>
+        	<li><a href="index2.html">eserler</a></li>
+        	<li><a href="index3.html">projeler</a></li>
+        	<li><a href="index5.html">ilçelerimiz</a></li>
+            <li><a href="index6.html">yöresel yemekler</a></li>
+            
+    	</ul>
+	</div>
+	<div id="content">
+    <h3 class="h3yozgat">Yozgat ve İlçeleri</h3>
+    <p> Yozgat ili, biri merkez olmak üzere 14 ilçeden ibârettir. 
+
+		Merkez: 1990 sayımına göre toplam nüfûsu 93.424 olup, 50.335’i ilçe merkezinde, 43.089’u köylerde yaşamaktadır. Merkez bucağa bağlı 50, Musabeyli bucağına bağlı 31, Osmanpaşa bucağına bağlı 19 köyü vardır. Yüzölçümü 2039 km2 olup, nüfus yoğunluğu 46’dır. İlçe toprakları hafif dalgalı olup, akarsu vâdileriyle parçalanmıştır. Çorum Suyu, Delice, Sorgunözü, Yozgat ve Killi Çayları, ilçe topraklarını sulayan başlıca akarsulardır. 
+
+		Ekonomisi tarıma dayalıdır. Başlıca tarım ürünleri buğday, fasulye, patates, soğan, keten, kenevir, haşhaş ve şekerpancarıdır. Vâdi tabanlarında daha çok meyve ve sebze yetiştirilir. Yamaçlarda ise bağcılık yapılır. Hayvancılık ekonomik açıdan önemli gelir kaynağıdır. En çok küçükbaş hayvan beslenir. 
+    </p>
+    <img class="yozgatharita" src="Png dosyaları/yozgat-haritasi.jpg" />
+    <p>
+    	<h3 class="h3il">Akdağmâdeni:</h3> 1990 sayımına göre toplam nüfûsu 62.776 olup, 12.220’si ilçe merkezinde, 50.556’sı köylerde yaşamaktadır. Merkez bucağa bağlı 71 köyü vardır. İlçe toprakları genelde dağlıktır. Akdağ doğu ve güneyinde yer alır. Dağlardan kaynaklanan suları Çekerek Suyunun kolları olan Göndelen, Akdağmâdeni ve Saray dereleri toplar. Batısında Orta Anadolu’nun önemli platolarından olan Bozok Platosu yer alır. Kara iklimi hâkim olması yüzünden bitki örtüsü zengin değildir. İlçe merkezi Akdağ’ın kuzey eteklerinde, çam ormanları içinde kurulmuştur. Yozgat-Sivas karayolunun orta kesimlerinde yer alır. İl merkezine 113 km mesâfededir. 1815’ten sonra bölgedeki gümüş ve kurşun yatakları işletilmeye başlanınca, ilçe merkezinde yerleşmeler başladı ve hızla nüfûsu arttı.
+    </p>
+    <p>
+    	<h3 class="h3il">Aydıncık:</h3> 1990 sayımına göre toplam nüfûsu 22.098 olup, 5734’ü ilçe merkezinde, 16.364’ü köylerde yaşamaktadır. Merkez bucağa bağlı 28 köyü vardır. İlçe toprakları Çekerek Suyu Vâdisinden ve etrâfındaki orta yükseklikteki dalgalı düzlüklerden meydana gelir.Ekonomisi tarıma dayalıdır. Başlıca tarım ürünleri patates, soğan, şekerpancarı, buğday, arpa ve ayçiçeğidir. Akarsu boylarında sebzecilik yapılır. İlçe merkezi Çekerek Suyu Vâdisinde kurulmuştur.
+        <img class="akdağ" src="Png dosyaları/akdagmadeni.jpg" />
+        <img class="aydıncık" src="Png dosyaları/aydıncık.jpg" />
+    </p>
+    <p>
+    	<h3 class="h3il">Boğazlıyan:</h3> 1990 sayımına göre toplam nüfûsu 55.576 olup, 16.895’i ilçe merkezinde, 38.681’i köylerde yaşamaktadır. Merkez bucağa bağlı 28, Yenipazar bucağına bağlı 5 köyü vardır. İlçe toprakları İç Anadolu Platosu üzerinde olup, doğusunun küçük bir bölümünde Akdağlar yer alır. İlçe topraklarını Delice Irmağının kolu olan Karasu sular. Düz arâzi az olup, Boğazlıyan Ovası, Karasu Vâdisinde yer alır. 
+		İlçe merkezi Keklicek Dağı ile Yatırdağı arasında kalan vâdide kurulmuştur. Yozgat-Kayseri karayolu ilçe merkezinden geçer. İl merkezine 120 km mesâfededir. Ticârî yönden Kayseriye bağlıdır. İlçe belediyesi 1879’da kurulmuştur. 
+    </p>
+    <p>
+    	<h3 class="h3il">Çandır:</h3>1990 sayımına göre toplam nüfûsu 11.317 olup, 8432’si ilçe merkezinde, 2885’i köylerde yaşamaktadır. Merkez bucağa bağlı 4 köyü vardır. İlçe topraklarının büyük bölümü dağlar ve platolarla kaplıdır. Doğusunda Akdağlar, kuzeyinde Gevencik Dağı yer alır. Başlıca akarsuyu Pınar Deresidir. Akdağlar ormanlarla kaplıdır. 
+
+		Ekonomisi tarıma dayalıdır. Başlıca tarım ürünleri buğday, patates, ayçiçeği, şekerpancarı ve baklagillerdir. Meyvecilik ve hayvancılık gelişmiştir. El tezgahlarında halı dokunur. İlçe merkezi Pınar Deresi kenarında kurulmuştur. Çayıralan ilçesine bağlı bucakken 16 Haziran 1987’de 3992 sayılı kânunla ilçe oldu. 
+    </p>
+    <img class="akdağ" src="Png dosyaları/boğazlıyan.jpg"/>
+    <img class="aydıncık" src="Png dosyaları/CANDIR.jpg" />
+    <p>
+    		<h3 class="h3il">Çayıralan:</h3> 1990 sayımına göre toplam nüfûsu 24.381 olup, 7644’ü ilçe merkezinde, 16.737’si köylerde yaşamaktadır. Merkez bucağa bağlı 27 köyü vardır. İlçe topraklarının büyük bölümü dağlar ve platolarla kaplıdır. Doğusunda Akdağlar, kuzeydoğusunda Karababa Dağı, kuzeyinde Sırıklıdağı, batısında ise Gevencik Dağı yer alır. Dağlardan kaynaklanan suları Kanak Çayı toplar Ayrıca Kızılırmak ve Delice Irmağını besleyen irili ufaklı birçok akarsu vardır. Akarsu kıyılarında dar düzlükler vardır. Akdağlar ormanlarla kaplıdır. 
+    </p>
+    <p>
+    		<h3 class="h3il">Çekerek:</h3> 1990 sayımına göre toplam nüfûsu 38.420 olup, 10.398’i ilçe merkezinde, 28.022’si köylerde yaşamaktadır. Merkez bucağına bağlı 43 köyü vardır. Yeşilırmak Havzasında kalan ilçe topraklarının büyük bölümü Bozok Platosunda yer alır. İlçe topraklarını Çekerek Irmağı sular. Çekerek Vâdisinin genişlediği yerlerde Kümbet ve Koyunculu ovaları yer alır. 
+    </p>
+    <img class="akdağ" src="Png dosyaları/çayırlalan.jpg" />
+    <img class="aydıncık" src="Png dosyaları/çekerek.jpg" />
+    <p>
+    	<h3 class="h3il">Kadışehri:</h3> 1990 sayımına göre toplam nüfûsu 24.400 olup, 4195’i ilçe merkezinde, 20.205’i köylerde yaşamaktadır. İlçe toprakları genelde dağlıktır. Kuzeyinde Deveci Dağları, güneyinde Bozok Platosu yer alır. Başlıca akarsuyu Çekerek Çayıdır. 
+
+		Ekonomisi tarıma dayalıdır. Başlıca tarım ürünleri patates, buğday, arpa, şekerpancarı ve ayçiçeğidir. İlçe merkezi Deveci Dağları eteklerinde kurulmuştur. Çekerek ilçesine bağlı bucakken 16 Haziran 1987’de 3392 sayılı kânunla ilçe oldu. 
+    </p>
+    <p>
+    	<h3 class="h3il">Saraykent:</h3> 1990 sayımına göre toplam nüfûsu 9842 olup, 6059’u ilçe merkezinde, 3783’ü köylerde yaşamaktadır. İlçe toprakları Bozok Platosunda yer alır. Topraklarını Çekerek Suyunun kolları sular. 
+
+		Ekonomisi tarım ve hayvancılığa dayalıdır. Meyvecilik gelişmiştir. Başlıca yetiştirilen meyveler elma, armut, kayısı, vişne, ceviz ve üzümdür. En çok koyun, tiftik ve kıl keçisi beslenir. İlçe merkezi, Bozok Platosunda kurulmuştur. Yozgat-Sivas karayolu ilçenin güneyinden geçer. Eski ismi Karamağra’dır. Akdağmâdeni ilçesine bağlı bucakken 9 Mayıs 1990’da 3644 sayılı kânunla ilçe oldu. 
+    </p>
+    <img class="akdağ" src="Png dosyaları/kadışehri.jpg"/>
+    <img class="aydıncık" src="Png dosyaları/saraykent.jpg"/>
+    <p>
+    	<h3 class="h3il">Sarıkaya:</h3> 1990 sayımına göre toplam nüfûsu 44.857 olup, 11.586’sı ilçe merkezinde, 33.271’i köylerde yaşamaktadır. Merkez bucağına bağlı 39, Hasbek bucağına bağlı 18 köyü vardır. Yüzölçümü 976 km2 olup, nüfus yoğunluğu 46’dır. İlçe toprakları, akarsu vâdileriyle parçalanmış olup, Bozok Platosunun güneyinde yer alır. İlçe topraklarını Delice Irmağının kolları sular. 
+
+		Ekonomisi tarıma dayalıdır. Başlıca tarım ürünleri; buğday, şekerpancarı, arpa, mercimek, patates, çavdar ve üzüm olup, ayrıca az miktarda soğan, fasulye, elma ve armut yetiştirilir. Hayvancılık ekonomik açıdan önemli gelir kaynağıdır. İlçe topraklarında demir yatakları vardır. 
+    </p>
+    <p>
+    	<h3 class="h3il">Sorgun:</h3> 1990 sayımına göre toplam nüfûsu 96.046 olup, 31.179’u ilçe merkezinde, 64.867’si köylerde yaşamaktadır. Merkez bucağa bağlı 89 ve Eymir bucağına bağlı 11 köyü vardır. Yüzölçümü 1769 km2 olup, nüfus yoğunluğu 54’tür. İlçe toprakları Bozok Platosunun orta yükseklikteki dağlık düzlüklerinden meydana gelir. Sorgunözü ve Çekerek Çayına karışan bâzı dereler ilçe topraklarını sular. 
+
+		Ekonomisi tarıma dayalıdır. Başlıca tarım ürünleri buğday, arpa, mercimek, nohut, üzüm, şekerpancarı, patates, çavdar ve fasulyedir. Hayvancılık gelişmiş olup, en çok sığır, koyun ve Ankara keçisi beslenir. Tuğla, kiremit ve un fabrikaları başlıca sanâyi kuruluşlarıdır. İlçe topraklarında linyit yatakları vardır.
+    </p>
+    <img class="akdağ" src="Png dosyaları/sorgun0.JPG"/>
+    <img class="aydıncık" src="Png dosyaları/sarıkaya.JPG"/>
+    <p>
+    	<h3 class="h3il">Şefaatli:</h3> 1990 sayımına göre toplam nüfûsu 36.246 olup, 13.171’i ilçe merkezinde, 23.075’i köylerde yaşamaktadır. Merkez bucağa bağlı 44 köyü vardır. Yüzölçümü 833 km2 olup, nüfus yoğunluğu 43’tür. İlçe toprakları orta yükseklikte dalgalı düzlüklerden meydana gelir. Bu düzlükler akarsu vâdileriyle parçalanmış olup, topraklardan kaynaklanan sular Delice Irmağına karışır. İlçe toprakları orman yönünden çok fakir olup, step görünümündedir. 
+
+		Ekonomisi tarıma dayalıdır. Başlıca tarım ürünleri buğday, şekerpancarı, arpa, mercimek ve üzüm olup, ayrıca az miktarda elma, patates, soğan, çavdar ve armut yetiştirilir. Hayvancılık ekonomik açıdan önemli gelir kaynağıdır. En çok koyun, Ankara keçisi ve sığır beslenir. İlçe topraklarında flüorit yatakları vardır. 
+    </p>
+    <p>
+    	<h3 class="h3il">Yenifakılı:</h3> 1990 sayımına göre toplam nüfûsu 11.305 olup, 4087’si ilçe merkezinde, 7218’i köylerde yaşamaktadır. Merkez bucağa bağlı 8 köyü vardır. İlçe toprakları genelde düzdür. Karasu Çayı ilçe topraklarını sular. 
+
+		Ekonomisi tarıma dayalıdır. Başlıca tarım ürünleri buğday, patates, şekerpancarı, fasulye ve mercimektir. Hayvancılık gelişmiştir. İlçe merkezi Karasu Çayı Vâdisinde kurulmuştur. Ankara-Kayseri demiryolu ilçeden geçer. Boğazlıyan’a bağlı bucakken 9 Mayıs 1990’da 3644 sayılı kânunla ilçe oldu. İlçe belediyesi 1951’de kurulmuştur. 
+    </p>
+    <img class="akdağ" src="Png dosyaları/ŞEFAATLİ.jpg"/>
+    <img  class="aydıncık" src="Png dosyaları/yenifakılı.jpg"/>
+    <p>
+    	<h3 class="h3il">Yerköy:</h3> 1990 sayımına göre toplam nüfûsu 48.462 olup, 26.248’i ilçe merkezinde, 22.214’ü köylerde yaşamaktadır. Merkez bucağa bağlı 32, Salmanlı bucağına bağlı 22 köyü vardır. Yüzölçümü 1245 km2 olup, nüfus yoğunluğu 39’dur. İlçe toprakları dalgalı düzlüklerden meydana gelir. Kuzeybatısında Zincirli Dağı yer alır. İlçe topraklarından kaynaklanan suları Delice Irmağı toplar. Bu akarsu vâdisinin genişlediği bölümde Yerköy Ovası yer alır. 
+
+		Ekonomisi tarıma dayalıdır. Başlıca tarım ürünleri buğday, arpa, şekerpancarı, patates, soğan ve elmadır. Hayvancılık gelişmiştir. En çok küçükbaş hayvan beslenir. Sarayköy’de bulunan çimento fabrikası başlıca sanâyi kuruluşudur. Diğer sanâyi kuruluşları ise kraft torba, tuğla ve briket fabrikalarıdır. 
+    </p>
+    <img  class="yerköy2" src="Png dosyaları/yerköyyy.jpg"/>
+	</div>
+    <br />
+		<div id="footer">
+            <h3 class="footerh3">iletişim için:</h3>
+            <p class="footerp">Tel:0543 369 83 17</p>
+            <br />
+            <img class="face" src="Png dosyaları/facebook.png"/>
+           <a class="facea" href="https://www.facebook.com/burak.ozer.96387">Bize facebook üzerinden  ulaşabilirsiniz.</a>
+           <img class="twitter" src="Png dosyaları/twitter.jpg"/>
+           <a class="twittera" href="https://twitter.com/Yozgatbel">Bize  twitter üzerinden  ulaşabilirsiniz </a>
+        </div>
+</div>
+</body>
+</html>

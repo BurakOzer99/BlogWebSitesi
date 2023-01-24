@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="still.css" rel="stylesheet" type="text/css"/>
+<title>performans</title>
+</head>
+<body>
+<div id="header">
+<style type="text/css">
+.container1{width:660px;margin:0;padding:0;}
+.folio_block{position:absolute;left:50%;top:50%;margin:-140px 0 0 -395px;}
+.main_view{float:left;position:relative;}
+.window{height:375px;width:960px;-moz-box-shadow:0 0 5px #303030;-webkit-box-shadow:0 0 5px #303030;box-shadow:0 0 5px #303030;border:1px solid #000;margin:0;overflow:hidden;position:relative;}
+.image_reel{position:absolute;top:0;left:0;}
+.image_reel img{float:left;}
+.paging_btrix{position:absolute;bottom:10px;right:-7px;width:178px;height:47px;z-index:100;text-align:center;line-height:40px;background:url(http://4.bp.blogspot.com/_ELUIRQESuk4/TFw-m2eaQlI/AAAAAAAAADg/KQbHMNM6wOQ/s320/paging.png) no-repeat;display:none;}
+.paging_btrix a{text-decoration:none;color:#fff;padding:5px;}
+.paging_btrix a.active{font-weight:700;background:#920000;border:1px solid #610000;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;}
+.paging_btrix a:hover{font-weight:700;}
+</style>
+<div class="container1">
+<div class="main_view">
+<div class="window">
+<div class="image_reel">
+<img src="Png dosyaları/banner1.jpg"/> 
+<img src="Png dosyaları/banner2.jpg"/>
+<img src="Png dosyaları/banner3.jpg"/>
+<img src="Png dosyaları/banner4.jpg" width="960"/>
+<img src="Png dosyaları/yozgat5.jpg" width=""/>
+</div>
+</div>
+<div class="paging_btrix">
+<a href="#" rel="1">1</a>
+<a href="#" rel="2">2</a>
+<a href="#" rel="3">3</a>
+<a href="#" rel="4">4</a>
+<a href="#" rel="5">5</a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){$(".paging_btrix").show();$(".paging_btrix a:first").addClass("active");var imageWidth=$(".window").width();var imageSum=$(".image_reel img").size();var imageReelWidth=imageWidth*imageSum;$(".image_reel").css({'width':imageReelWidth});rotate=function(){var triggerID=$active.attr("rel")-1;var image_reelPosition=triggerID*imageWidth;$(".paging_btrix a").removeClass('active');$active.addClass('active');$(".image_reel").animate({left:-image_reelPosition},500)};rotateSwitch=function(){play=setInterval(function(){$active=$('.paging_btrix a.active').next();if($active.length===0){$active=$('.paging_btrix a:first')}rotate()},
+5000)};rotateSwitch();$(".image_reel a").hover(function(){clearInterval(play)},function(){rotateSwitch()});$(".paging_btrix a").click(function(){$active=$(this);clearInterval(play);rotate();rotateSwitch();return false})});
+</script>
+</div>
+   <div id="menü">
+    	<ul>
+			<li><a href="index.html">Anasayfa</a></li>
+        	<li><a href="index2.html">eserler</a></li>
+        	<li><a href="index3.html">projeler</a></li>
+        	<li><a href="index5.html">ilçelerimiz</a></li>
+            <li><a href="index6.html">yöresel yemekler</a></li>
+    	</ul>
+	</div>
+    <br />
+	<div id="content">
+		<p>
+    		<h3 class="anasayfah3">
+    			Yozgat Ve Tarihçesi
+   			</h3>
+    		<p class="anasayfap1">
+    
+				İç Anadolu bölgesinin Orta Kızılırmak bölümünde yer alan bir ilimiz. İl toprakları 34°02’ ve 36°09’ doğu boylamları ile 38°54’ kuzey enlemleri arasında kalır. Doğudan Sivas, kuzeyden Tokat ve Çorum, batıdan Kırıkkale, güneybatıdan Kırşehir, güneyden Nevşehir ve Kayseri illeri ile çevrilidir. Türkiye’nin beş tahıl ambarından biridir. Trafik numarası 66’dır.
+				<br />
+				Türkmenler “ot” a “yoz” derler. Çapanoğlu Aşireti Horasan’dan bu bölgeye geldiklerinde yemyeşil uzanıp giden bir otlakla karşılaşınca sürülerini bu otlağa bırakıp çadırlarını kurmuşlardır. Zamanla çadırların yerini taş ve kerpiç binâlar almış ve küçük bir kasaba meydana gelmiştir. Türkmenler bu kasabaya “Yoz Kant” (Otlak Kenti) ismini vermişlerdir. Zamanla bu kelime “Yozgat” olarak halk dilinde yerleşmiştir. 
+ 				 <br />
+                 <img class="cami" src="Png dosyaları/yerköy camiii.fw.png"/>
+                <p class="anasayfap1">
+                	Yozgat ili ile ilgili efsâne şöyledir: Çapanoğlu Aşireti henüz Yozgat bölgesine varmış, sürüler otlağa bırakılmıştı. Çadırların yanında aşiretin en yaşlısı CabbarAğa koyunlarını otlatırken bir yandan da, elinde tesbih kalben zikrederken, nur yüzlü ak sakallı bir derviş Cabbar Ağadan su istedi. “Suyum yok ama buz gibi bir bakraç süt var. Az önce gelinim GülsümHâtun getirdi. Kabul edersen çok sevinirim.” dedi. Nur yüzlü zât oturdu ve üç nefeste bütün sütü içti. CabbarAğa hepsini içtiği için çok memnun oldu. 
+					Nur yüzlü zâtCabbarAğanın sırtını okşadı ve; “Gönlün gani, mülkün de fâni olsun. Yozuna yoz katılsın, köyün oban Yozkent olsun.” dedi ve kayboldu. Bakraç içindeki süt yine ilk hâlini almış olup, ağzına kadar dolu haldeydi. Bu hâdiseyi, aşiret beylerine anlattı ve hepsi bu zâtın Hızır aleyhisselâm olduğuna inandılar ve bulundukları yerde kalarak “Yozkent” kurmaya karar verdiler.
+                </p>
+                <img class="anasayfaimg2" src="Png dosyaları/yozgt22222.fw.png"/>
+                <h3 class="şiirr" >Yozgatı anlatan  bir şiir:</h3>
+                <p class="anasayfapşiir">
+                	Ey güler yüzlü sehir;
+					<br />
+                    Bildim adin Yozgat'mis.
+                    <br />
+                    Bir pirin duasiyla
+                    <br />
+                    Hak, yozuna yoz katmis,
+                    <br />
+                    Daha sonra kizinin
+					<br />				
+                    Mayasina naz katmis
+                    <br />
+                    Sükür birinciyi çok
+                    <br />
+                    Ikinciyi az katmis
+                    <br />
+                    Kiziyla evlenenin
+                    <br />
+                    Kislarina yaz katmis…
+                    <br  />
+                    Ey güler yüzlü sehir;
+                     <br  />
+                     Arif Nihat  Asya... 	
+                    </p>
+                    
+                    <br />
+                 <p class="anasayfaH2">Atatürk ve Yozgat</p>	
+                <h3 class="ataturkyozgat">Atatürk’ün Yozgat’a İlk Gelişi:</h3>	
+                <p>15 Ekim 1924’te yağmurlu bir gündü, Atatürk o gün Kayseri’den Yozgat’a geçecekti. Yozgat Valisi Aziz Bey, konukları almak üzere Kayseri’ye kadar gelmişti. Yağmur dinse mesele yoktu. Ne var ki, yıllardır böyle bir yağmur görülmemişti. Yollardan endişe edenler vardı. Aziz Bey: “Yozgat büyük kurtarıcıyı bu gün bu gece aralarında görmezse gözüne uyku girmez. Hareket edelim” dedi. Öğleden sonra hareket ettiler. Gece geç vakitte Yozgat’a geldiler. O gece yediden yetmişe Yozgat ayaktaydı. Hem de yağmur altında... Herkesin elinde bir fener vardı. Birkaç yüz atlı şehrin dışında Atatürk’ü karşılayıp bir ışık seli Elekçi Yokuşundan Yozgat’a aktı. Yozgat halkının Atatürk’ten dilekleri, yol ve hastaneye doktordan ibaretti. Kos koca Yozgat hastanesinde doktor olarak bir operatör vardı. İlçelerin hiç birinde doktor yoktu. Atatürk, yanındaki milletvekillerine dönerek: “İstanbul ve İzmir gibi büyük şehirlerdeki doktorları bütün milletin hayatı ve sağlığı ile ilgilendirmek çarelerini bulmalıyız. Bu böyle					olmaz" dedi.
+                </p>
+                <img src="Png dosyaları/ataturk.png" width="940" />
+                <h3 class="ataturkyozgat">Atatürk’ün Yozgat’a ikinci Gelişi:</h3>
+                <p>
+                	Korkunç bir kış günü Atatürk sabaha karşı şu emri verdi: “Bu kışta kıyamette memleketin ne halde olduğunu görmek istiyorum. Otomobiller gezmeye çıkacağız.”
+
+					O sene kış o derece şiddetliydi ki, yollardan değil otomobillerin kurtların dahi geçmesi zordu. Buna rağmen Kırşehir istikametinde yola çıkıldı. Yoldan bin bir güçlükle hatta, Atatürk’ün otomobilinin batığa saplanması ve bizzat bir ara kendisinin bile itmeye mecbur kalması durumuyla ilerliyorlardı. Sonunda, zorluklar içerisinde Kırşehir’e varıldı. Şehrin kapısında Vali Bey, frakını ve silindir şapkasını giymiş bir şekilde Atatürk’ü karşılıyor. Atatürk: “Vali Bey, bu kıyafet nereden icap etti” diyor. Vali, “Efendim, yol ve erkan” diye söze başlayacak oluyor. Atatürk, hemen sözünü kesiyor: “Bilmek lazım olan bu yol değildir. Bizim geldiğimiz yoldur” diyor. Atatürk Kırşehir’den Yozgat’a gelirken daha vilayet hududunda Vali Bekir Sami, kamyon ve yol açma ekipleriyle Ata’yı karşılayınca, Ata’nın ilk hükmü şu oluyor: “İşte, yol bilen vali böyle olur.” dedi.
+                </p>
+				   
+	</div>
+		<br />
+		<div id="footer">
+            <h3 class="footerh3">İletişim için:</h3>
+            <p class="footerp">Tel:0543 369 83 17</p>
+            <br />
+            <img class="face" src="Png dosyaları/facebook.png"/>
+           <a class="facea" href="https://www.facebook.com/burak.ozer.96387">Bize facebook üzerinden  ulaşabilirsiniz.</a>
+           <img class="twitter" src="Png dosyaları/twitter.jpg"/>
+           <a class="twittera" href="https://twitter.com/Yozgatbel">Bize  twitter üzerinden  ulaşabilirsiniz. </a>
+        </div>
+</div>
+
+</body>
+</html>

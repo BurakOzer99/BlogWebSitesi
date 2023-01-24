@@ -1,0 +1,240 @@
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	width:960px;
+	height:100%;
+	background-color:#FFD968;
+	margin: 0 auto;
+}
+#header{
+	background-color:#D7BAE8;
+	width:100%px;
+	height:175px;
+	}
+
+#menü{
+	
+}
+#menü ul{
+	background-color:#64BAE8;
+}
+#menü li{
+	margin-left:75px;
+	display:inline;
+}
+#menü li a{
+	text-decoration:none;
+}
+a:hover{
+color:#FFF;
+}
+#content{
+	background-color:#D7BAE8;
+	border-top:solid 1px #009900;
+	border-right:solid 1px #009900;
+	border-left:solid 1px #009900;
+	border-bottom:solid 1px #009900;
+	padding:10px;
+	height:%100;
+	text-align:justify;
+}
+#footer{
+	background-color:#D7BAE8;
+	border:solid 1px #009900;
+	height:100px;
+	width:955px;
+}
+.cami{
+		float:right;
+}
+.anasayfah3{
+	color:red;
+	text-align:center;
+}
+.anasayfap1{
+	padding-left:15px;
+	font-size:18px;
+}
+.anasayfaimg2{
+	 border:solid 1px red;
+	 float:left;
+	 margin:5px;
+	 
+}
+.anasayfapşiir{
+	padding-right:100px;
+	float:right;
+	font-size:18px;
+}
+.şiirr{
+	padding-right:100px;
+	float:right;
+	color:red;
+	font-size:18px;
+	
+}
+.anasayfaH2{
+	padding-left:350px;
+	padding-top:300px;
+	font-size:24px;
+	color:blue;
+}
+.ataturk{
+	border:solid 1px red;
+}
+.eserlerimg2{
+	border:solid 1px red;
+	float:right;
+}
+.nizamh3{
+	padding-left:15px;
+	color:red;
+}
+.nizamp{
+	text-align:justify;
+}
+.karslıimg3{
+	margin:5px;
+	border:solid 1px red;
+	float:left;
+}
+.karslı{
+	color:red;
+	padding-left:15px;
+}
+.saatimg4{
+	border:solid 1px red;
+	float:right;
+}
+.saath4{
+	float:left;
+	color:red;
+}
+.saatp{
+	padding-top:67px;
+	text-align:justify;
+}
+.projelerimizımg2{
+	border:solid 1px red;
+	float:right;
+	width:50%;
+}
+.havah3{
+	color:red;
+}
+.havap{
+	font-size:16px;
+	text-align:justify;
+}
+.hızlıimg3{
+	float:left;
+	display:inline;
+	border:solid 1px red;
+}
+.hızlıh3{
+	padding-right:360px;
+	float:right;
+	color:red;
+}
+.hızlıp{
+	text-align:justify;
+	display:inline;
+	
+}
+.yöreselh3{
+	color:red;
+}
+.yöreselyemek{
+	text-align:center;
+	color:red;
+	
+}
+.yöreselimg1{
+	border:solid 1px red;
+	text-align:justify;
+	float:left;
+	display:inline;
+}
+.yöreselp{
+	font-size:18px;
+	text-align:justify;
+	display:inline;
+}
+.testih4{
+	color:Red;
+}
+.testiimg{
+	border:solid 1px red;
+	float:right;
+	width:350px;
+	height:450px
+}
+.testiyapılış{
+	color:red;
+}
+.testip{
+	font-size:18px;
+}
+.börekh4{
+	display:inline;
+	color:red;
+}
+.börekimg{
+	border:solid 1px red;
+	float:left;
+	display:inline;
+	width:33%;
+}
+.börekp{
+	font-size:18px;
+}
+.h3yozgat{
+	color:red;
+	text-align:center;
+}
+.h3il{
+	color:red;
+}
+.akdağ{
+	border:solid 1px red;
+	display:inline;
+}
+.aydıncık{
+	border:solid 1px red;
+	float:right;
+	display:inline;
+}
+.yerköy2{
+	border:solid 1px red;
+	margin-left:200px;
+}
+.yozgatharita{
+	border:solid 1px red;
+}
+.ataturkyozgat{
+	color:red;
+	font-size:18px;
+}
+.footerh3{
+	padding-left:350px;
+	color:red;
+	display:inline;
+}
+.footerp{
+	display:inline;
+}
+.face{
+	padding-top:10px;
+	padding-left:20px;
+}
+.facea{
+	
+	color:red;
+	text-decoration:none;
+}
+.twitter{
+	padding-left:200px;
+}
+.twittera{
+	color:red;
+	text-decoration:none;
+}

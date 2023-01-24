@@ -1,0 +1,88 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>performans</title>
+<link href="still.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+<style type="text/css">
+.container1{width:660px;margin:0;padding:0;}
+.folio_block{position:absolute;left:50%;top:50%;margin:-140px 0 0 -395px;}
+.main_view{float:left;position:relative;}
+.window{height:375px;width:960px;-moz-box-shadow:0 0 5px #303030;-webkit-box-shadow:0 0 5px #303030;box-shadow:0 0 5px #303030;border:1px solid #000;margin:0;overflow:hidden;position:relative;}
+.image_reel{position:absolute;top:0;left:0;}
+.image_reel img{float:left;}
+.paging_btrix{position:absolute;bottom:10px;right:-7px;width:178px;height:47px;z-index:100;text-align:center;line-height:40px;background:url(http://4.bp.blogspot.com/_ELUIRQESuk4/TFw-m2eaQlI/AAAAAAAAADg/KQbHMNM6wOQ/s320/paging.png) no-repeat;display:none;}
+.paging_btrix a{text-decoration:none;color:#fff;padding:5px;}
+.paging_btrix a.active{font-weight:700;background:#920000;border:1px solid #610000;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;}
+.paging_btrix a:hover{font-weight:700;}
+</style>
+<div class="container1">
+<div class="main_view">
+<div class="window">
+<div class="image_reel">
+<img src="Png dosyaları/banner1.jpg"/> 
+<img src="Png dosyaları/banner2.jpg"/>
+<img src="Png dosyaları/banner3.jpg"/>
+<img src="Png dosyaları/banner4.jpg" width="960"/>
+<img src="Png dosyaları/yozgat5.jpg"/>
+</div>
+</div>
+<div class="paging_btrix">
+<a href="#" rel="1">1</a>
+<a href="#" rel="2">2</a>
+<a href="#" rel="3">3</a>
+<a href="#" rel="4">4</a>
+<a href="#" rel="5">5</a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){$(".paging_btrix").show();$(".paging_btrix a:first").addClass("active");var imageWidth=$(".window").width();var imageSum=$(".image_reel img").size();var imageReelWidth=imageWidth*imageSum;$(".image_reel").css({'width':imageReelWidth});rotate=function(){var triggerID=$active.attr("rel")-1;var image_reelPosition=triggerID*imageWidth;$(".paging_btrix a").removeClass('active');$active.addClass('active');$(".image_reel").animate({left:-image_reelPosition},500)};rotateSwitch=function(){play=setInterval(function(){$active=$('.paging_btrix a.active').next();if($active.length===0){$active=$('.paging_btrix a:first')}rotate()},
+5000)};rotateSwitch();$(".image_reel a").hover(function(){clearInterval(play)},function(){rotateSwitch()});$(".paging_btrix a").click(function(){$active=$(this);clearInterval(play);rotate();rotateSwitch();return false})});
+</script>
+   <div id="menü">
+    	<ul>
+			<li><a href="index.html">Anasayfa</a></li>
+        	<li><a href="index2.html">eserler</a></li>
+        	<li><a href="index3.html">projeler</a></li>
+        	<li><a href="index5.html">ilçelerimiz</a></li>
+            <li><a href="index6.html">yöresel yemekler</a></li>
+    	</ul>
+	</div>
+    <div id="content">
+    	<img class="eserlerimg2" src="Png dosyaları/nızami oğlu  evi.jpg"/>
+    	<h3 class="nizamh3">NİZAMOGLU EVİ</h3>
+    	<p class="nizamp">
+    	Bu konak Vasilaki ve Joanna tarafından 1871’de yaptırılmış, 1875 yılında da Fatma Hanım’a, oradan da Nizamzade Ali Efendi’nin mülkiyetine geçmiştir. Yozgat’ın en eski evlerinden olan bu yapı iç sofalı plan tipinde olup, sofa çevresinde odalar sıralanmıştır. Evin güneydoğu ve güneybatı köşe odaları bezeme ile zenginleştirilmiş ve özellikle tavanları oyma, çakma, ajur ve sarkıtlarla süslenmiştir. Ayrıca tavanlarda, duvarlarda şehir manzaralarını, ormanları, savaş ve av sahnelerini ve doğal oluşumları gösteren resimler bulunmaktadır.
+    	<br />
+        Uzun yıllar konut olarak kullanılmış, bir müddet Kız Sanat Okulu, bir dönem de Tekel Deposu olarak hizmet vermiştir. 1979 yılında kamulaştırılan Konak büyük bir onarım sonrası 1985 yılında Müze olarak hizmete girmiştir.Gayri Menkul Eski Eserler ve Anıtlar Yüksek Kurulu Başkanlığınca 1975 yılında korunması gerekli eski eserler kapsamına alınmıştır . 1985 yılında ziyarete açılan Müzemizde 2802' adet etnoğrafik eser bulunmaktadır. Etnoğrafik eserlerimiz genelde Osmanlının Geç Dönemleri ve Cumhuriyetin ilk yıllarına ait erkek ve bayan giyim kuşam eşyaları, mutfak eşyaları, çeşitli silahlar, ahşap malzemeler, kilim ve halı dokumalar, el yazma eserler, sancak gibi eserlerden oluşmaktadır.
+        </p>
+        <img class="karslıimg3" src="Png dosyaları/karslı oğlu.jpg"/>
+        <h3 class="karslı">Karslıoğlu Konağı:</h3>
+        <p>
+			Yozgat'ın geleneksel ev mimarisinin en güzel örneklerinden biri olan Karslıoğlu Konağı, 1883 yılıyla tarihlendirilmektedir. Bir özelliği vardır bu konağın. Atatürk Yozgat'a ikinci gelişinde Karslıoğlu Konağı'nda kalmıştır. 
+
+			Konağın mimarisi dikdörtgen planlıdır. İki kattan oluşur ve üzeri ahşap çatı ile örtülmüştür. Özellikle tavan, kapı ve dolap kapaklarındaki ağaç işlemeleri görülmeye değerdir. Konak günümüzde Arkeoloji Müzesi olarak hizmet vermekte… Yozgat sınırları içerisinde yapılan kazılar sonucunda gün yüzüne çıkmış birçok eser müzede sergilenmektedir. Karslıoğlu Konağı, şehrin merkezindeki Sungurlu Sokak'ta bulunuyor.1934 yılında Yozgat'a gelen Atatürk bir gece konakladı.Osmanlı Devrine ait olup 1883 yılında yapıldığı bilinen konak 1929 ve 1936 yılları arasında Yozgat Belediye Başkanlığı yapan Yusuf KARSLIOĞLU tarafından satın alınarak uzun süre kullanıldığı için “ Karslıoğlu konağı” olarak adlandırılmıştır.Arkeoloji Müzesi olarak kullanılmak üzere 1977 yılında Kültür Bakanlığınca istimlak edilen konakta ilk restorasyon çalışmaları 1990yılında tamamlanmıştır. Atatürk’ün Yozgat’a ilk gelişlerinde burada kaldığı ve daha sonrada uzun bir süre Vali Konağı olarak kullanıldığı bilinmektedir. Konak şu anda İl Özel İdaresinetahsisli olup, restore edilerek Yozgat Valiliği Türk Sanat Müziği Korosu çalışmalarını burada yürütmektedir.
+        </p>
+        <img class="saatimg4" src="Png dosyaları/saaat kulesi.fw.png"/>
+        <h4 class="saath4">Yozgat Saat kulesi:</h4>
+        <p class="saatp">
+        Çarşı içerisi merkezde bulunan saat kulesi, 1897 yılında dönemin belediye başkanı Ahmet Tevfiki Zade tarafından Yozgatlı Şakir ustaya yapılmıştır. Şehrin orta yerinde kurulmuş, kare pirizma şeklinde uzun bir kuledir. Aşağıdan yukarıya doğru genişleyen enine silmelerle altı kata bölünen kulenin üst kısmı şerefe gibi bir terasla çevrilidir. En üst kısımda çan şeklinde bir külah vardır. Saat çanı 250 kg. ağırlığında olup, her yarım ve tam saatte isabetli olarak (çalar) vurur. Kuleye çıkış kuzeyden, yuvarlak kemerli kapıdan olur.Şerefeli kısmın altında üç kat aşağı doğru her katta küçük yuvarlak kemerli bir pencere bulunur.
+        </p>
+    </div>
+    <br />
+		<div id="footer">
+            <h3 class="footerh3">iletişim için:</h3>
+            <p class="footerp">Tel:0543 369 83 17</p>
+            <br />
+            <img class="face" src="Png dosyaları/facebook.png"/>
+           <a class="facea" href="https://www.facebook.com/burak.ozer.96387">Bize facebook üzerinden  ulaşabilirsiniz.</a>
+           <img class="twitter" src="Png dosyaları/twitter.jpg"/>
+           <a class="twittera" href="https://twitter.com/Yozgatbel">Bize  twitter üzerinden  ulaşabilirsiniz </a>
+        </div>
+</div>
+</body>
+</html>
